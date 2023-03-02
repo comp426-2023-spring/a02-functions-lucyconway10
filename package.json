@@ -1,0 +1,29 @@
+{
+  "name": "ls",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "version": "1.0.0",
+  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-lucyconway10.git"
+  },
+  "author": "Lucy Conway",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-lucyconway10/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-lucyconway10#readme",
+  "type": "module",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.41",
+    "node-fetch": "^3.3.0",
+    "process": "^0.11.10"
+  }
+}
